@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="title">
+      <h1 class="title__h1">High Low Game</h1>
+    </div>
+    <div class="level">
+      <h2 class="level__h1">Choose the level:</h2>
+      <button class="level__btn level__btn--easy">Easy</button>
+      <button class="level__btn level__btn--medium">Medium</button>
+      <button class="level__btn level__btn--hard">Hard</button>
+    </div>
+    <div class="game hidden">
+      <h2 class="game__header">Choose a number between 1 and 100</h2>
+      <input class="game__number" type="number" min="1" max="100" />
+      <button class="game__checkanswer">Check Number</button>
+      <h4 class="game__chances">You have: 7 chances remaining</h4>
+    </div>
+    <div class="result hidden"><h1 class="result__h1">You Lost</h1></div>
+  </body>
+</html>
